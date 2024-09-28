@@ -16,7 +16,7 @@ Masukkan perintah dibawah untuk menginstall Autoscript Premium
 apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
-# v
+# repo
 
 ```
 wget raw.githubusercontent.com/okysmilee2/repo/main/addrepo && bash addrepo 
