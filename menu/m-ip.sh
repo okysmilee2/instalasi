@@ -163,7 +163,7 @@ curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$T
     echo -e " ${YELL}IP Address${NC}     : $ip"
     echo -e " ${YELL}Registered On${NC}  : $today"
     echo -e " ${YELL}Expired On${NC}     : $exp2"
-    echo -e " ${YELL}Create Link Install${NC} : https://jpst.it/3KS4o"
+    echo -e " ${YELL}Create Link Install${NC} : copy= `apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh`"
     echo ""
     echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
