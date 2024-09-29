@@ -60,8 +60,7 @@ TOKEN=$(cat /etc/github/api)
 REPO="https://github.com/okysmilee2/izin.git"
 EMAIL="okysmilee2@gmail.com"
 USER="okysmilee2"
-# linkinstal= https://justpaste.it/edit/62611736/yu5zlvfdabupd00t
-
+linkinstal="```apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh```"
 
 
 add-ip() {
@@ -151,7 +150,7 @@ TEXT="
 <i>Automatic Notification from Github</i>
 <code>🧿───────────────────🧿</code>
 <b>Klik To Create Link Instalaion</b>
-<code>```apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh```<code>
+$linkinstal
 "
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
   echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
@@ -163,7 +162,7 @@ curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$T
     echo -e " ${YELL}IP Address${NC}     : $ip"
     echo -e " ${YELL}Registered On${NC}  : $today"
     echo -e " ${YELL}Expired On${NC}     : $exp2"
-    echo -e " ${YELL}Create Link Install${NC} : <code>```apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh```<code>
+    echo -e " ${YELL}Create Link Install${NC} : $linkinstal
     echo ""
     echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
