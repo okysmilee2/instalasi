@@ -60,7 +60,7 @@ TOKEN=$(cat /etc/github/api)
 REPO="https://github.com/okysmilee2/izin.git"
 EMAIL="okysmilee2@gmail.com"
 USER="okysmilee2"
-linkinstal="```apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh```"
+linkinstal="apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh"
 
 
 add-ip() {
