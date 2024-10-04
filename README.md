@@ -5,9 +5,10 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 ```
 ## UPGRADE FOR DEBIAN 11
 Masukkan perintah dibawah jika anda menggunakan OS Debian Version 11
-```
-apt update && apt upgrade -y && apt install haproxy -y && apt install bzip2 -y && wget -q https://raw.githubusercontent.com/Septahadif/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
 
+```
+apt update && apt upgrade -y && apt install haproxy -y && apt install bzip2 -y && wget -q https://raw.githubusercontent.com/okysmilee/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
+```
 
 ##  UPGRADE FOR UBUNTU
 Masukkan perintah dibawah jika anda menggunakan OS Ubuntu Version 18 atau 20
