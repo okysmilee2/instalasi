@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Optimasi Speed By rmblvpn
+#Optimasi Speed By RMBL VPN 
 Add_To_New_Line(){
 	if [ "$(tail -n1 $1 | wc -l)" == "0"  ];then
 		echo "" >> "$1"
@@ -39,6 +39,11 @@ echo "#############################################"
 Optimize_Parameters(){
 echo "#############################################"
 echo "Optimasi Parameters..."
+################################
+Check_And_Add_Line "/etc/sysctl.conf" "net.ipv6.conf.all.disable_ipv6 = 1"
+Check_And_Add_Line "/etc/sysctl.conf" "net.ipv6.conf.default.disable_ipv6 = 1"
+Check_And_Add_Line "/etc/sysctl.conf" "net.ipv6.conf.lo.disable_ipv6 = 1"
+################################
 Check_And_Add_Line "/etc/security/limits.conf" "* soft nofile 51200"
 Check_And_Add_Line "/etc/security/limits.conf" "* hard nofile 51200"
 Check_And_Add_Line "/etc/security/limits.conf" "root soft nofile 51200"
