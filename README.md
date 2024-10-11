@@ -6,10 +6,6 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 ## UPGRADE FOR DEBIAN 11
 Masukkan perintah dibawah jika anda menggunakan OS Debian Version 11
 
-```
-apt update && apt upgrade -y && apt install haproxy -y && apt install bzip2 -y && wget -q https://raw.githubusercontent.com/okysmilee/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
-```
-
 ##  UPGRADE FOR UBUNTU
 Masukkan perintah dibawah jika anda menggunakan OS Ubuntu Version 18 atau 20
 ```
@@ -21,7 +17,11 @@ Masukkan perintah dibawah untuk menginstall Autoscript Premium
 ```
 apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt install -y wget && apt install -y curl && apt install haproxy -y && apt install build-essential -y && apt-get install -y jq && apt-get install shc && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/okysmilee2/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
-
+# masuk menu
+ketik
+```
+menu1
+```
 # repo
 
 ```
