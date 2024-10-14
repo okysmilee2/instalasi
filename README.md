@@ -20,7 +20,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt inst
 # masuk menu
 ketik
 ```
-menu1
+menu
 ```
 # repo
 
