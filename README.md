@@ -6,7 +6,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y i
 
 
 ##  UPGRADE FOR UBUNTU
-Masukkan perintah dibawah jika anda menggunakan OS Ubuntu Version 18 atau 20
+Masukkan perintah dibawah jika anda menggunakan OS Ubuntu Version 20
 ```
 apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ```
