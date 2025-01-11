@@ -15,8 +15,8 @@ sub=${domen}
 dns=${sub}.tokodswara.my.id
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.tokodswara.my.id
-CF_KEY=64a18c14afb45351140fad994e00ffded2dad
-CF_ID=okysmilee@gmail.com
+CF_KEY=e389864dc3fb00a3a377afb9e32e0c611540e
+CF_ID=okysmilee12@gmail.com
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
