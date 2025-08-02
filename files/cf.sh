@@ -15,7 +15,7 @@ sub=${domen}
 dns=${sub}.btokodswara.cloud
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.btokodswara.cloud
-CF_KEY=9ecee3196825c0d8b8776ba70a90d2b320ead
+CF_KEY=9ecee3196825c0d8b8776ba70a90d2b320ead#
 CF_ID=okysmilee1@gmail.com
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
